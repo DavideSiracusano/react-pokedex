@@ -1,4 +1,6 @@
 🧪 Cos'è Pokédex React?
+## site:
+https://react-sirdavi-pokedex.netlify.app/
 <img width="1891" height="886" alt="image" src="https://github.com/user-attachments/assets/27204bbc-81e5-4a00-9f16-60b53a4350a1" />
 
 Pokédex React è un'applicazione web sviluppata con React che consente agli utenti di esplorare il mondo dei Pokémon. Utilizza la PokéAPI per ottenere dati aggiornati su oltre 1.000 Pokémon, offrendo un'interfaccia interattiva e responsive.
