@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+h1 {
+  font-family: "Press Start 2P", cursive;
+  opacity: 0;
+  animation: fadeIn 2s ease-in-out forwards;
+}
+
+h4 {
+  opacity: 0;
+  animation: fadeIn 2.5s ease-in-out forwards;
+}
+
+.pokemon-name {
+  font-family: "Press Start 2P", cursive;
+}
+
+button {
+  opacity: 0;
+  animation: fadeIn 3s ease-in-out forwards;
+}
+
+body {
+  transition: background-color 0.6s ease, color 0.6s ease;
+}
+
+body.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.pokemon-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.pokemon-card {
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pokemon-card:hover {
+  transform: scale(1.05) translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.audio {
+  border-radius: 5px;
+}
